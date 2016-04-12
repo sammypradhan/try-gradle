@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: try-gradle
+  name: sammy-try-gradle
   labels:
-    app: try-gradle
+    app: sammy-try-gradle
 spec:
   containers:
-  - name: try-gradle
+  - name: sammy-try-gradle
     image: sammypradhan/try-gradle
     ports:
     - containerPort: 8080
